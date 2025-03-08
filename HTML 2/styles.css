@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+/* Button */
+button {
+    margin: 20px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Book List */
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Book Card */
+.book-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: left;
+    border-left: 5px solid #007bff;
+}
+
+.book-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.book-card h4 {
+    margin: 5px 0;
+    color: #555;
+}
+
+.book-card p {
+    font-size: 14px;
+    color: #666;
+}
